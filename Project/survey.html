@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+        <link rel = "shortcut icon" type = "image/jpg" href = "images/favicon.jpg">
+        <title>Survey</title>
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+        <meta name = "author" content = "Logan Kim">
+        <meta name = "description" content = "COMP213 Project Survey">
+        <meta name = "keywords" content = "COMP 213, Centennial College, HTML5, CSS3, jkim347, project, survey">
+        <meta charset = "utf-8">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><a href="index.html">Logan<span class="highlight">4U</span></a></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <li><a>Top 5 Laptops</a>
+                            <ul>
+                                <li><a href = "macbook_pro_13.html">MacBook Pro 13</a></li>
+                                <li><a href = "spectre_x360_13.html">Spectre X360 13</a></li>
+                                <li><a href = "stealth.html">Stealth</a></li>
+                                <li><a href = "xps_13.html">XPS 13</a></li>
+                                <li><a href = "zenbook_3.html">ZenBook 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href = "#" class = "active">Survey</a></li>
+                        <li><a href = "resources.html">Resources</a></li>
+                        <li><a href = "http://studentweb.cencol.ca/jkim347/index.html" target = "_blank">My COMP213</a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h2><strong>User Survey</strong></h2>
+            <form method="post">
+                <div>
+                    <p class="question">First Name:</p><br />
+                    <input class="name" type="text" name="FirstName" value = "Enter your first name" OnFocus = "if (this.value == 'Enter your first name') {this.value = '';}" OnBlur = "if (this.value == '') {this.value = 'Enter your first name';}"><br />
+                </div>
+                <div>
+                    <p class="question">1. Was our website helpful to you?</p>
+                    <div class="radio">
+                        <label><input type="radio" name="Q1"> Yes</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="Q1"> No</label>
+                    </div>
+                </div>
+                <div>
+                    <p class="question">2. Which laptop is the most impressive?</p>
+                    <div class="radio">
+                        <label><input type="radio" name="Q2"> Macbook Pro 13</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="Q2"> Spectre X360 13</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="Q2"> Stealth</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="Q2"> XPS 13</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="Q2"> Zenbook 3</label>
+                    </div>
+                </div>
+                <div>
+                    <p class="question">3. What is the most important part when you buy a laptop?</p>
+                    <div class="radio">
+                        <label><input type="radio" name="Q3"> Design</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="Q3"> Build Quality</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="Q3"> Reliability</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="Q3"> Performance</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="Q3"> Battery Life</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="Q3"> Value</label>
+                    </div>
+                </div>
+                <div>
+                    <p class="question">4. Do you agree with our choice of top 5 laptops?</p>
+                    <div class="radio">
+                        <label><input type="radio" name="Q4"> Yes</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="Q4"> No</label>
+                    </div>
+                </div>
+                <div>
+                    <p class="question">5. If you do not agree, which laptop should be in our top 5 choice?</p>
+                    <textarea class="name" rows="4" cols="50"></textarea>
+                </div>
+                <div class="submit">
+                    <input type="submit" name="submit" value="Submit">
+                    <input id="but" type="reset" name="clear" value="Clear">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p id="name">Logan4U, Copyright &copy; 2017</p>
+            <p id = "backtotop"><a href = "#top"><mark>[ Back to Top ]</mark></a></p>
+        </footer>
+    </body>
+</html>

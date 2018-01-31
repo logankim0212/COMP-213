@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link rel = "shortcut icon" type = "image/jpg" href = "images/favicon.jpg">
+    <title>Assignment 4</title>
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <meta name = "author" content = "Logan Kim">
+    <meta name = "description" content = "COMP213 Assignment 4">
+    <meta name = "keywords" content = "COMP 213, Centennial College, HTML5, CSS3, jkim347, Assignment 4">
+    <meta charset = "utf-8">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="home.html"><span class="highlight">Logan Kim</span> COMP213 Page</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href = "home.html">Home</a></li>
+                    <li><a>Centennial</a>
+                        <ul>
+                            <li><a href = "https://www.centennialcollege.ca" target="_blank">Homepage</a></li>
+                            <li><a href = "https://my.centennialcollege.ca" target="_blank">My Centennial</a></li>
+                            <li><a href = "https://e.centennialcollege.ca" target="_blank">E-Centennial</a></li>
+                            <li><a href =   "https://prnetdrive02.centennialcollege.ca/FileWay/login.aspx?ReturnUrl=%2fFileWay" target="_blank">File Way</a></li>
+                        </ul>
+                    </li>
+                    <li><a class = "active">Assignments</a>
+                        <ul>
+                            <li><a href = "index.html">Assignment 1</a></li>
+                            <li><a href = "assignment3.html">Assignment 3</a></li>
+                            <li><a class="active" href = "#">Assignment 4</a></li>
+                            <li><a href = "project/index.html" target = "_blank">Project</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Instructions</a>
+                        <ul>
+                            <li><a href =   "http://facultyweb.centennialcollege.ca/jcarman/index.html" target="_blank">COMP 213</a></li>
+                            <li><a href = "https://www.udemy.com" target="_blank">Udemy</a></li>
+                            <li><a href = "https://www.codecademy.com" target="_blank">Codecademy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href = "mailto:jkim347@my.centennialcollege.ca">Contact</a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2><strong>User Registration</strong></h2>
+        <form method="post">
+        First Name: <br />
+        <input type="text" name="FirstName" value = "Enter your first name" OnFocus = "if (this.value == 'Enter your first name') {this.value = '';}" OnBlur = "if (this.value == '') {this.value = 'Enter your first name';}"><br />
+        Last Name: <br />
+        <input type="text" name="LastName" value = "Enter your last name" OnFocus = "if (this.value == 'Enter your last name') {this.value = '';}" OnBlur = "if (this.value == '') {this.value = 'Enter your last name';}"><br />
+        Email: <br />
+        <input type="email" name="Email" value = "email@example.com" OnFocus = "if (this.value == 'email@example.com') {this.value = '';}" OnBlur = "if (this.value == '') {this.value = 'email@example.com';}"><br />
+        Password: <br />
+        <input type="password" name="psw"><br />
+        Date of Birth: <br />
+        <input type="date" name="DateofBirth"><br />
+        Phone Number: <br />
+        <input type="text" name="PhoneNumber" value = "(XXX)XXX-XXXX" OnFocus = "if (this.value == '(XXX)XXX-XXXX') {this.value = '';}" OnBlur = "if (this.value == '') {this.value = '(XXX)XXX-XXXX';}"><br />
+        Address: <br />
+        <input type="text" name="Address"><br />
+        City: <br /> <input type="text" name="City"><br />
+        Province: <br />
+        <select name="Province">
+            <option value="Alberta">Alberta</option>
+            <option value="British Columbia">British Columbia</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="New Brunswick">New Brunswick</option>
+            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+            <option value="Northwest Territories">Northwest Territories</option>
+            <option value="Nunavut">Nunavut</option>
+            <option value="Ontario">Ontario</option>
+            <option value="Prince Edward Island">Prince Edward Island</option>
+            <option value="Quebec">Quebec</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+            <option value="Yukon">Yukon</option>
+        </select><br />
+        <input type="submit" name="submit" value="Submit"> <input class = "but" type="reset" name="clear" value="Clear">
+    </form>
+    </main>
+    <footer>
+        <p id="name">Logan Kim COMP213 Page, Copyright &copy; 2017</p>
+        <p id = "backtotop"><a href = "#top"><mark>[ Back to Top ]</mark></a></p>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,222 @@
+body {
+    background-color: #666666;
+}
+/*navigation starts here*/
+.container {
+    width: 90%;
+    margin: auto;
+}
+/*header*/
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 1.875em;
+    min-height: 4.375em;
+    border-bottom: #e8491d .25em solid;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+}
+header li {
+    float: left;
+    display: inline;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    position: relative;
+}
+header .highlight {
+    color: #e8491d;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #333333;
+}
+header nav ul a{
+    list-style-type: none;
+    margin: 0;
+}
+header nav ul li a:hover:not(.active) {
+    background-color: #111111;
+}
+header nav ul li a.active {
+    color: #e8491d;
+    font-weight: bold;
+}
+header nav ul li {
+    width: 8em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    margin-right: .5em;
+    font-weight: bold;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+header nav ul li a:hover {
+    background-color: white;
+}
+header nav ul li ul li {
+    display: none;
+    background-color: #35424a;
+}
+header nav ul li:hover ul li {
+    display: block;
+}
+/*navigation ends here*/
+/* Mobile Accessiblity starts here*/
+@media screen and (max-width: 771px){
+    header #branding,
+    header nav,
+    header nav li,
+    header nav ul li {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        position: static;
+    }
+    header nav {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    img, h2, p, input, select {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 90%;
+    }
+}
+/* Mobile Accessiblity ends here*/
+h2 {
+    color: #00ff00;
+    font-size: 250%;
+    font-family: Arial, sans-serif;
+    margin-left: 4.5%;
+    margin-right: auto;
+}
+p {
+    color: #ffffff;
+    font-size: 150%;
+    font-family: Arial, sans-serif;
+    margin-left: 7.5%;
+    margin-right: auto;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile {
+    margin-left: 4.5%;
+    margin-right: auto;
+    float: left;
+    height: 9.5em;
+    width: 9.5em;
+    padding: 0 3em 0 0;
+}
+.myself {
+    color: #ffffff;
+    font-size: 150%;
+    font-family: Arial, sans-serif;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+li#about1, li#about2, li#about3, li#about4 {
+    margin-left: 15%;
+    margin-bottom: 0.5em;
+}
+.but {
+    margin-left: 2%;
+}
+form {
+    color: yellow;
+    font-size: 150%;
+    font-family: Arial, sans-serif;
+    margin-left: 7%;
+    margin-right: auto;
+}
+input, select {
+    font-size: 100%;
+    font-family: Arial, sans-serif;
+    margin-bottom: 1em;
+    background-color: black;
+    color: white;
+    border-radius: 0.3em;
+}
+input:hover {
+    background-color: #884dff;
+}
+p#backtotop {
+    text-align: center;
+    font-size: 125%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p#name {
+    font-size: 125%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*table starts here*/
+th {
+    border: 0.2em solid #00ffff;
+    color: #ffffff;
+    font-size: 125%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 0.25em 0.35em;
+    border-radius: 0.35em;
+}
+td {
+    border: 0.2em solid #00ff00;
+    color: #ffffff;
+    font-size: 125%;
+    font-family: Arial, sans-serif;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    padding: 0.25em 0.35em;
+    border-radius: 0.35em;
+}
+caption {
+    font-size: 175%;
+    color: yellow;
+    font-family: Arial, sans-serif;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+div#table {
+    overflow-x: auto;
+}
+/*table ends here*/
+footer {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 1em;
+    padding-bottom: 1.2em;
+    margin-top: 2em;
+    text-align: center;
+    border-top: #e8491d .25em solid;
+}

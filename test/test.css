@@ -1,0 +1,90 @@
+body {
+    background: url('images/bridge.jpg') no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+main {
+    background-color: #35424a;
+    margin: 0 5em 0 5em;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+/*header*/
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 1.875em;
+    min-height: 4.375em;
+    border-bottom: #e8491d .25em solid;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1em;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+}
+header li {
+    float: left;
+    display: inline;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+}
+header .highlight {
+    color: #e8491d;
+}
+
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #333333;
+}
+nav ul a{
+    list-style-type: none;
+    margin: 0;
+}
+nav ul li a:hover:not(.active) {
+    background-color: #111111;
+}
+nav ul li a.active {
+    color: #e8491d;
+    font-weight: bold;
+}
+nav ul li {
+    width: 8em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    margin-right: .5em;
+    font-weight: bold;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: blue;
+}
+nav ul li ul li {
+    display: none;
+    background-color: grey;
+}
+nav ul li:hover ul li {
+    display: block;
+}
